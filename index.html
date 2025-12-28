@@ -154,7 +154,7 @@
             const data = await response.json();
             document.getElementById('user-email').textContent = data.email || "Authorized Guest";
         } catch (e) {
-            document.getElementById('user-email').textContent = "GitHub Authenticated";
+            document.getElementById('user-email').textContent = "User Authenticated";
         }
     }
 
